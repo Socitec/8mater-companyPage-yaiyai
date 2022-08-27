@@ -1,0 +1,27 @@
+/* 共通スタイル */
+
+/* 変数 */
+$dark-baseColor: #52D0DD;
+$light-baseColor: #EBF6F7;
+
+.c_back-ground-color_dbc {
+  background-color: $dark-baseColor;
+}
+
+.c_back-ground-color_lbc {
+  background-color: $light-baseColor;
+}
+
+.c_text-color_dbc {
+  color: $dark-baseColor;
+}
+
+.c_border-dbc {
+  border: $dark-baseColor 1.5px solid;
+  background-color: $dark-baseColor;
+}
+
+.c_margin-x-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
