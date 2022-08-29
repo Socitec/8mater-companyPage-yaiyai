@@ -1,3 +1,10 @@
 @charset "UTF-8";
 /* タブレット向けレイアウト */
-/* モバイル向けレイアウト *//*# sourceMappingURL=responsive.css.map */
+/* モバイル向けレイアウト */
+/* モバイルより画面幅が欲しい場合*/
+@media (min-width: 768px) {
+  /* PCの場合電話はリンクしない */
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */

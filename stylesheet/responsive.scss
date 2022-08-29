@@ -1,5 +1,5 @@
 /* タブレット向けレイアウト */
-@media all and (max-width: 1000px ) {
+@media all and (max-width: 1000px) {
   
 }
 
@@ -7,5 +7,12 @@
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
 
-  
+}
+
+/* モバイルより画面幅が欲しい場合*/
+@media(min-width: 768px){
+  /* PCの場合電話はリンクしない */
+  a[href^="tel:"]{
+    pointer-events: none;
+  }
 }
