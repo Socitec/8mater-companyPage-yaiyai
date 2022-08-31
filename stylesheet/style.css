@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* 共通スタイル */
 /* 変数 */
+.c_fontfamily-main {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
 .c_back-ground-color_dbc {
   background-color: #52D0DD;
 }
